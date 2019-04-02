@@ -18,11 +18,15 @@ public class Program {
 				matriz[i][j] = sc.nextInt();
 			}
 		}
-		System.out.println("Matriz");
+		System.out.println("-------------------");
 		for(int i = 0;i <  matriz.length; i++) {
 			for(int j = 0; j < matriz.length; j ++) {
 				System.out.println(matriz[i][j]);
 			}
+		}
+		System.out.println("---------------------");
+		for(int i = 0; i < matriz.length; i++) {
+			System.out.println(matriz[i][i]);
 		}
 		sc.close();
 	}
