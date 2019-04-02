@@ -29,6 +29,7 @@ public class Program {
 			System.out.println(matriz[i][i]);
 		}
 		sc.close();
+		System.out.println("Boa tarde!!!");
 	}
 
 }
